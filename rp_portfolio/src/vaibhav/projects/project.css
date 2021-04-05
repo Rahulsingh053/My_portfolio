@@ -1,0 +1,17 @@
+#project {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.projectDiv div {
+  margin: 10px;
+  height: 200px;
+  width: 150px;
+  background-size: cover;
+}
+
+.projectDiv span {
+  position: relative;
+  bottom: 10px;
+}
