@@ -1,8 +1,11 @@
+import Header from "./header"
 export default function Main () {
 
     return (
         <div>
-            Hi Vivek
+            <Header a={1}>
+                hfhhff
+            </Header>
         </div>
     )
 }
