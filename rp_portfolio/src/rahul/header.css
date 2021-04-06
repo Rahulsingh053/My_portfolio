@@ -1,0 +1,18 @@
+
+#header {
+    background-color: rgb(7, 1, 12);
+    display: flex;
+    flex-direction: row;
+}
+#port{
+    background-color: rgb(228, 81, 76);
+    width: 132px;
+    margin: auto;
+    border-radius: 44%;
+}
+#port2{
+    background-color: rgb(218, 79, 74);
+    width: 95px;
+    margin: auto;
+    border-radius: 44%;
+}

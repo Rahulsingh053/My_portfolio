@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+#name {
+  font-size: 14px;
+}
+
+.headerGroup {
+  display: flex;
+  flex-direction: row;
+}
+
+.headerGroupItem {
+  padding-left: 5px;
+  padding-right: 5px;
+}
