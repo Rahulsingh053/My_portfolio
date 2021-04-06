@@ -1,6 +1,7 @@
 import "./project.css";
+
 export default function Projects() {
-  const projectData = [
+  let projectData = [
     {
       name: "Project1",
       image:
@@ -17,6 +18,15 @@ export default function Projects() {
         "https://s3-img.pixpa.com/com/500/78690/1600437441-104446-adrienloret-unibet.png"
     }
   ];
+
+  projectData = [
+    ...projectData,
+    ...projectData,
+    ...projectData,
+    ...projectData,
+    ...projectData
+  ];
+
   return (
     <div id="project">
       {projectData.map(project => {

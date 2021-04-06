@@ -3,11 +3,13 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .projectDiv div {
   margin: 10px;
-  height: 200px;
-  width: 150px;
+  height: 400px;
+  width: 300px;
   background-size: cover;
 }
 
