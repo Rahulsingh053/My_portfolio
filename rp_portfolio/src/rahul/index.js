@@ -7,8 +7,8 @@ import Projects from "./projects";
 export default function Main () {
 
     return (
-        <div>
-            Hi Rahul
+        <div style={{width:window.innerWidth}}>
+            
             <Header></Header>
             <Name></Name>
             <Skills></Skills>

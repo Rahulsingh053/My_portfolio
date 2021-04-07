@@ -1,17 +1,37 @@
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
+import { GoMarkGithub } from "react-icons/go";
 import "./header.css"
-export default function Header(){
-    return(
-    <div id="header">
+export default function Header() {
 
-        <div id="port">
-        <a href="mailto:someone@example.com"><MdEmail className="email"></MdEmail></a>
-        <a href="https://www.linkedin.com/in/rahul-pratap-singh-353753202/"><FaLinkedin class="linkedin"></FaLinkedin></a>
+    const links = [
+        {
+            icon: <MdEmail />,
+            url: "mailto:someone@example.com"
+        },
+        {
+            icon: <FaLinkedin />,
+            url: "https://www.linkedin.com/in/rahul-pratap-singh-353753202/"
+        },
+        {
+            icon: <GoMarkGithub />,
+            url: "https://github.com/Rahulsingh053/"
+        }
+    ]
+    return (
+        <div id="header">
+
+            <div id="port">
+                {
+                    links.map(singleLink => {
+                        return <a target="_blank" class="iconsocial" href={singleLink.url}>{singleLink.icon}</a>
+                    })
+                }
+
+            </div>
+            <div id="port2">
+                Education
+    </div>
         </div>
-        <div id="port2">
-        Education
-    </div>
-    </div>
     )
 }
