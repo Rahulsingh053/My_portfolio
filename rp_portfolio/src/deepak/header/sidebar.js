@@ -1,3 +1,4 @@
+import "./sidebar"
 export default function Main () {
 
     return (

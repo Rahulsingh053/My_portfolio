@@ -1,9 +1,11 @@
-import Header from "./header"
-export default function Abcd () {
+import Sidebar from "./sidebar";
+export default function Main () {
 
     return (
         <div>
-           <Header></Header>
+            
+            <Sidebar></Sidebar>
+
         </div>
     )
 }

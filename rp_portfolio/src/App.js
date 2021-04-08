@@ -8,8 +8,8 @@ import Vaibhav from "./vaibhav";
 function App() {
   return (
     <div className="App">
-      <Rahul></Rahul>
-      {/* <Deepak></Deepak> */}
+      {/* <Rahul></Rahul> */}
+      <Deepak></Deepak>
       {/* <Vivek></Vivek> */}
       {/* <Vaibhav></Vaibhav> */}
     </div>
