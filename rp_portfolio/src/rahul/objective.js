@@ -2,11 +2,11 @@ import "./objective.css"
 export default function Objective() {
     return (<div>
         <div id="co">
-            Career Objective
+            <h2>Career Objective</h2>
         </div>
 
         <div id="obj">
-            Because the standard lorem ipsum text is a chopped-up version of a real work, you can't truly translate it. The actual Latin sentence that the start of lorem ipsum text comes from reads as follows: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        I am a dedicated, motivated, diligent and can be smart employee for a company. I am confident of contributing beneficially in achieving the objectives of the organization and ready to learn and grow with an organization to set and achieve targets to my full potential by virtue of my sincerity and diligence.
         </div>
     </div>
     )

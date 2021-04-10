@@ -1,16 +1,15 @@
 import "./certificates.css"
+import pythoncerti from "./pythoncerti.png"
+import dataviscerti from "./dataviscerti.png"
 export default function Certificates(){
-    return(<div>
+    return(<div class="rcertificates">
 
     <div id="title">
-    Certificates
+    <h2>Certificates</h2>
     </div>
     <div id="mainbox">
-
-        <div id="box1" class="box">1</div>
-        <div id="box2" class="box">2</div>
-        <div id="box3" class="box">3</div>
-        <div id="box4" class="box">4</div>
+        <div id="box1" class="box"><img src={pythoncerti}></img></div>
+        <div id="box2" class="box"><img src={dataviscerti}></img></div>
     </div>
     </div>
     )

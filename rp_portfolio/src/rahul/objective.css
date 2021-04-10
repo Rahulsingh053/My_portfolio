@@ -1,11 +1,6 @@
 #obj{
     background-color: bisque;
-    font-size: medium;
-    margin: -17px;
+    font-size: large;
+    margin: 17px;
     padding: 9px;
-}
-#co{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 3%;
-    font-size: x-large;
 }

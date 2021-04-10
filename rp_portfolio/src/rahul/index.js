@@ -4,12 +4,12 @@ import Skills from "./skills";
 import Objective from "./objective";
 import Certificates from "./certificates";
 import Projects from "./projects";
-export default function Main () {
+import "./index.css"
+export default function Main() {
 
     return (
-        <div style={{width:window.innerWidth}}>
-            
-            <Header></Header>
+        <div class="maincss">
+           <Header></Header>
             <Name></Name>
             <Skills></Skills>
             <Objective></Objective>
