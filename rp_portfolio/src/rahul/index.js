@@ -4,6 +4,7 @@ import Skills from "./skills";
 import Objective from "./objective";
 import Certificates from "./certificates";
 import Projects from "./projects";
+import Oskills from "./oskills";
 import "./index.css"
 export default function Main() {
 
@@ -12,6 +13,7 @@ export default function Main() {
            <Header></Header>
             <Name></Name>
             <Skills></Skills>
+            <Oskills></Oskills>
             <Objective></Objective>
             <Certificates></Certificates>
             <Projects></Projects>

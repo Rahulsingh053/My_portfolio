@@ -13,10 +13,10 @@
     /* border-top-right-radius: 5px;
     border-bottom-right-radius: 5px; */
 /* } */
-@keyframes mymove {
+/* @keyframes mymove {
     from {width: 0%;}
     to {width: 100%;}
-  }
+  } */
   .rslidercontainer{
       display: flex;
     width: 200px;
