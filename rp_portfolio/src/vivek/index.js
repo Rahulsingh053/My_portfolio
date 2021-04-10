@@ -1,11 +1,11 @@
 import Header from "./header"
+import Image from "./image.js"
 export default function Main () {
 
     return (
         <div>
-            <Header a={1}>
-                hfhhff
-            </Header>
+            <Header> </Header>
+            <Image> </Image>
         </div>
     )
 }
