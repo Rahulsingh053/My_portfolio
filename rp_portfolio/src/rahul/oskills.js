@@ -26,7 +26,7 @@ export default function Oskills() {
             icons: <img src={seabornimg} width="125" height="80"></img>
         },
         {
-            icons: <img src={mlimg} width="80" height="75" ></img>
+            icons: <img src={mlimg} width="120" height="95" ></img>
         },
         {
             icons: <img src={Matplotlibimg} width="145" height="50"></img>
