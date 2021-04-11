@@ -29,6 +29,7 @@ export default function Skills() {
 
 
     return (<div>
+            <hr size="25" width="95%" color="black"></hr> 
             <h2>Technical Skills</h2>
         <div id="skills">
             {skilllist.map(s=> <div class="dirpl">{s.icon}<h2>{s.name}</h2>
