@@ -30,7 +30,7 @@ export default function Header() {
 
             </div>
             <div id="port2">
-                Education
+                Phone No: 7698160015
     </div>
         </div>
     )

@@ -1,5 +1,5 @@
 import "./name.css"
-import profileimage from "./WhatsApp Image 2021-04-08 at 10.38.02 PM.jpeg"
+import profileimage from "./rnamepic.jpg"
 export default function Name(){
     return(<div>
 

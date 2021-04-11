@@ -6,6 +6,6 @@
     width: 220px;
     border-radius: 50%;
     height: 220px;
-    border: 2px solid black;
-    box-shadow: 10px 10px 8px #110606;
+    border: 1px solid rgb(124, 106, 4),rgb(136, 36, 6);
+    box-shadow:10px 10px 8px rgb(114, 116, 223);
 }

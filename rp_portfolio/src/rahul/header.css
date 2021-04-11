@@ -12,14 +12,10 @@
     display: flex;
     flex: 1;
     justify-content: flex-end;
-}
-.email{
-    color: black;
-}
-.linkedin{
-    color: rgb(3, 3, 134);
+    font-weight: bold;
 }
 .iconsocial{
     padding: 5px;
     font-size: 23px;
+    color: #010a0f;
 }
