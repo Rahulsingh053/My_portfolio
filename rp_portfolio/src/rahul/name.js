@@ -9,6 +9,9 @@ export default function Name(){
         <div id="rname">
             Rahul Pratap Singh
         </div>
+        <div class="rmarks">
+        <marquee>S.S.C = 6.4 CGPA	&nbsp;,	&nbsp; H.S.C = 55%	&nbsp;,	&nbsp; Bachelor of Engineering = 7.8 CGPA</marquee>
+        </div>
     </div>
     )
 }

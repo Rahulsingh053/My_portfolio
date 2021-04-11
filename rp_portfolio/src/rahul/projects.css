@@ -2,23 +2,15 @@
     
     width: 225px;
     height: 225px;
-    background-color: midnightblue;
+    background-color: rgb(120, 139, 190);
     border:10px solid rgb(242, 242, 245);
 }
 #mainprbox{
     display: flex;
+    flex: 1;
+    justify-content: center;
     flex-direction: row;
-    border: 57px solid white;
-    margin-left: 208px;
-    margin-top: -49px;
+    flex-wrap: wrap;
+
     
-}
-#titlepr{
-    font-size: xx-large;
-    font-style: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 55px;
-    font-size: xx-large;
-    margin-left: 55px;
-    margin-bottom: -52px;
 }

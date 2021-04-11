@@ -1,14 +1,14 @@
 import "./projects.css"
 export default function Projects(){
     return(<div>
-         <div id="titlepr">
-    My Projects
-    </div>
+         <h2>My Projects</h2>
     <div id="mainprbox">
         
-        <div id="pr1" class="prbox">1</div>
-        <div id="pr2" class="prbox">2</div>
-        <div id="pr3" class="prbox">3</div>
+        <div class="prbox">1</div>
+        <div class="prbox">2</div>
+        <div class="prbox">3</div>
+        <div class="prbox">4</div>
+        <div class="prbox">5</div>
         
     </div>
     </div>

@@ -1,6 +1,5 @@
 .maincss{
     background-color: rgba(255, 255, 255, 3);
-    color: rgba(5, 0, 0, 0.877);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 3);
+    color: rgba(19, 14, 1, 0.877);
     background:linear-gradient(90deg,rgb(180, 181, 226),rgb(173, 195, 223));
 }
