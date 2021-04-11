@@ -1,4 +1,5 @@
 import "./project.css";
+import { motion } from "framer-motion";
 
 export default function Projects() {
   let projectData = [
@@ -27,17 +28,36 @@ export default function Projects() {
     ...projectData
   ];
 
+  const variants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 }
+  };
+
   return (
     <div id="project">
       {projectData.map(project => {
         return (
           <div key={project.name} className="projectDiv">
-            <div
+            <motion.div
+              whileHover={{
+                backgroundColor: "#fff",
+                backgroundImage: "none",
+                color: "black"
+              }}
+              whileTap={{
+                backgroundColor: "transparent"
+              }}
               style={{
-                backgroundImage: `url(${project.image})`
+                backgroundImage: `url(${project.image})`,
+                color: "transparent",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "flex-end",
+                fontSize: 24,
+                fontWeight: "bold"
               }}>
               <span>{project.name}</span>
-            </div>
+            </motion.div>
           </div>
         );
       })}
