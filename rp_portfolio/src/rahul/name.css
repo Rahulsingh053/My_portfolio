@@ -1,10 +1,11 @@
-#name{
-    font-size: large;
+#rname{
+    font-size: 36px;
     font-style: italic;
 }
-#name1 img{
-    width: 105px;
+#rname1 img{
+    width: 220px;
     border-radius: 50%;
-    height: 105px;
-    
+    height: 220px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 8px #110606;
 }

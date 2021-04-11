@@ -1,8 +1,11 @@
+import Sidebar from "./header/sidebar";
 export default function Main () {
 
     return (
         <div>
-            Hi Deepak
+            
+            <Sidebar></Sidebar>
+
         </div>
     )
 }

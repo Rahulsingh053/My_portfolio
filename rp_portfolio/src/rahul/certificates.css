@@ -1,0 +1,25 @@
+.box{
+    border:1px solid rgb(0, 0, 12);
+    
+}
+#mainbox{
+    display: flex;
+    flex-direction:row;
+    width: 935px;
+    padding: 20px;
+    width: fit-content;
+    margin-top: 8px;
+}
+#box1 img{
+    width: 295px;
+    height: 180px;
+}
+#box2 img{
+    width: 295px;
+    height: 180px;   
+}
+.rcertificates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

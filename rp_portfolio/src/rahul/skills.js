@@ -1,8 +1,49 @@
 import "./skills.css"
-export default function Skills(){
-    return(
-    <div id="skills">
-        <span>HTML &nbsp;&nbsp;&nbsp;&nbsp; CSS &nbsp;&nbsp;&nbsp;&nbsp; PYTHON &nbsp;&nbsp;&nbsp;&nbsp; JAVASCRIPT &nbsp;&nbsp;&nbsp;&nbsp; ML &nbsp;&nbsp;&nbsp;&nbsp; DATA_SCIENCE</span>
+import {FaHtml5} from "react-icons/fa";
+import {SiPython} from "react-icons/si";
+import {FaCss3Alt} from "react-icons/fa"
+import {IoLogoJavascript} from "react-icons/io"
+export default function Skills() {
+    const skilllist=[
+        {
+            name: "HTML",
+            rating: 80,
+            icon: <FaHtml5 class="rhtmlimg"></FaHtml5>
+        },
+        {
+            name: "PYTHON",
+            rating: 90,
+            icon:<SiPython class="rpythonimg"></SiPython>
+        },
+        {
+            name: "CSS",
+            rating: 79,
+            icon:<FaCss3Alt class="rcssimg"></FaCss3Alt>
+        },
+        {
+            name: "JAVA SCRIPT",
+            rating: 87,
+            icon:<IoLogoJavascript class="rjavascriptimg"></IoLogoJavascript>
+        },
+    ]
+
+
+    return (<div>
+            <h2>Technical Skills</h2>
+        <div id="skills">
+            {skilllist.map(s=> <div class="dirpl">{s.icon}<h2>{s.name}</h2>
+
+
+        <progress value={s.rating} max="100"></progress>
+     
+            </div>)}
+            
+           
+        </div>
+        
+           
     </div>
+
+    
     )
 }

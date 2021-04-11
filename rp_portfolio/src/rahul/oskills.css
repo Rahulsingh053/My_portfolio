@@ -1,0 +1,18 @@
+#fal{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flicon{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mlc{
+    color: rgb(26, 151, 223);
+}
