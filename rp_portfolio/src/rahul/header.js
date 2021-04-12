@@ -20,17 +20,16 @@ export default function Header() {
     ]
     return (
         <div id="header">
-
             <div id="port">
-                {
+            Welcome!
+            
+            </div>
+            <div id="port2">
+            {
                     links.map(singleLink => {
                         return <a target="_blank" class="iconsocial" href={singleLink.url}>{singleLink.icon}</a>
                     })
-                }
-
-            </div>
-            <div id="port2">
-                Phone No: 7698160015
+                }  
     </div>
         </div>
     )
