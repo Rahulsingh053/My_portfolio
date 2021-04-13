@@ -7,9 +7,11 @@
 #rname1 img{
     width: 220px;
     height: 220px;
-    box-shadow:10px 10px 8px  #0396FF;
-    display: flex;
-    justify-content: space-between;
+    box-shadow:8px 8px 6px  #d31111;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
 .rmarks{
     font-weight: bold;
