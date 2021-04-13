@@ -40,10 +40,8 @@ export default function Skills() {
         <progress value={s.rating} max="100"></progress>
      
             </div>)}
-            
            
         </div>
-        
            
     </div>
 
