@@ -1,9 +1,12 @@
 .prbox{
     
-    width: 225px;
-    height: 225px;
+    width: 175px;
+    height: 175px;
     background-color: rgb(120, 139, 190);
     border:10px solid rgb(242, 242, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #mainprbox{
     display: flex;
@@ -11,6 +14,5 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-
-    
+    color: black;
 }

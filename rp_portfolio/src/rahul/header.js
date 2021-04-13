@@ -2,6 +2,7 @@ import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { GoMarkGithub } from "react-icons/go";
 import "./header.css"
+import resume from './Resume.pdf'
 export default function Header() {
 
     const links = [
@@ -22,7 +23,9 @@ export default function Header() {
         <div id="header">
             <div id="port">
             Welcome!
-            
+            </div>
+            <div class="rresume">
+            <a href={resume} download>Download Resume</a>
             </div>
             <div id="port2">
             {
