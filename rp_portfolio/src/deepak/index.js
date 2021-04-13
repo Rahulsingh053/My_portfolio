@@ -1,4 +1,4 @@
-import Sidebar from "./header/sidebar";
+import Sidebar from "./sidebar";
 export default function Main () {
 
     return (
