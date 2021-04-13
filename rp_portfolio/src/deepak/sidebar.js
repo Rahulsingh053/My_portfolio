@@ -1,23 +1,51 @@
-import "./sidebar.css"
-import dp from "./Image.jpg"
-export default function Main () {
+import { MdEmail } from "react-icons/md";
+import { FaHubspot, FaLinkedin } from "react-icons/fa";
+import { GoMarkGithub } from "react-icons/go";
+import "./sidebar.css";
+import dp from "./Image.jpg";
+export default function Main() {
+  const links = [
+    {
+      dname: "Email",
+      icon: <MdEmail />,
+      url: "mailto:someone@example.com",
+    },
 
-    return (
-        <div>
-    <div id="dpic">
-        <img src={dp} width="200" height="150"></img>
+    {
+      dname: "Linkedin",
+      icon: <FaLinkedin />,
+      url: "https://www.linkedin.com/in/deepak-vishwakarma-78a345206/",
+    },
+    {
+      dname: "Git-Hub",
+      icon: <GoMarkGithub />,
+      url: "https://github.com/deepak061",
+    },
+  ];
+
+  return (
+    <div className="sidebarContainer">
+      <div id="dpic">
+        <img src={dp}></img>
+      </div>
+      <div class="sidebar">
+        <span class="dname">Deepak vishwakarma </span>
+        <span>SoftWare Engineer</span>
+
+        <a href="#home">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>      
+
+        
+          {links.map((singleLink) => {
+            return (
+              <a target="_blank" class="iconsocial" href={singleLink.url}>
+                {singleLink.icon} {singleLink.dname}
+              </a>
+            );
+          })}
+        
+      </div>
     </div>
-            <div class="sidebar">
-                <a class="dname">Deepak vishwakarma  </a>
-            <div>
-                SoftWare Engineer
-            </div>    
-            
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-</div>
-        </div>
-    )
+  );
 }
