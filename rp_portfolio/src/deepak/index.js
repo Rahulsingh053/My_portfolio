@@ -4,7 +4,7 @@ export default function Main () {
 
     return (
         
-        <div class="maincss">
+        <div class="dmaincss">
             <Sidebar></Sidebar>
 
         </div>
