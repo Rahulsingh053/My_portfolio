@@ -1,44 +1,47 @@
-#skills{
-     display: flex;
-     flex:1;
-    color: #d31111;
-
+.rSkillsContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+#r_skills {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+  color:black;
 }
 
-  .rslidercontainer{
-      display: flex;
-    width: 200px;
-    height: 10px;
-  }
-  .dirpl{
-      display:flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      padding-left: 50px;
-      padding-right: 50px;
-
-      
-  }
-  .dirpl img,.dirpl svg{
-    width: 75px;
-    height: 65px;
-  }
-  .rhtmlimg{
-    color: orangered;
-  }
-  .rpythonimg{
-    color: rgb(206, 206, 21);
-  }
-  .rcssimg{
-    color: rgb(9, 24, 161);
-  }
-  .rjavascriptimg{
-    background-color: rgb(206, 206, 21);
-    color: rgb(19, 1, 1);
-  }
-.rline{
+.rslidercontainer {
+  display: flex;
+  width: 200px;
+  height: 10px;
+}
+.dirpl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.dirpl img,
+.dirpl svg {
+  width: 75px;
+  height: 65px;
+}
+.rhtmlimg {
+  color: orangered;
+}
+.rpythonimg {
+  color: rgb(206, 206, 21);
+}
+.rcssimg {
+  color: rgb(9, 24, 161);
+}
+.rjavascriptimg {
+  background-color: rgb(206, 206, 21);
+  color: rgb(19, 1, 1);
+}
+.rline {
   background: linear-gradient(#333300 0%, #ff0000 100%);
-  color:brown;
 }

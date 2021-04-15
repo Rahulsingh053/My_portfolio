@@ -2,7 +2,7 @@
     
     width: 175px;
     height: 175px;
-    background-color: rgb(120, 139, 190);
+    background-color: linear-gradient( 135deg, #24c6dc,#514a9d);
     border:10px solid rgb(242, 242, 245);
     display: flex;
     justify-content: center;

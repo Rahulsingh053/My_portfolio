@@ -5,16 +5,18 @@ import Objective from "./objective";
 import Certificates from "./certificates";
 import Projects from "./projects";
 import Oskills from "./oskills";
+import Rlearn from "./rlearn";
 import "./index.css"
 export default function Main() {
 
     return (
-        <div class="maincss">
+        <div class="rmaincss">
            <Header></Header>
             <Name></Name>
+            <Objective></Objective>
             <Skills></Skills>
             <Oskills></Oskills>
-            <Objective></Objective>
+            <Rlearn></Rlearn>
             <Certificates></Certificates>
             <Projects></Projects>
         </div>

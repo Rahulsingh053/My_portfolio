@@ -8,7 +8,7 @@
     display: flex;
     flex: 1;
     font-weight: bold;
-    color: #d31111;
+    color: #050100;
 }
 #port2{
     display: flex;
@@ -19,11 +19,18 @@
 .iconsocial{
     padding: 5px;
     font-size: 23px;
-    color: #d31111;
+    color: #000000;
 }
 a:link{
-    color: #d31111;
+    color: #000000;
+    font-weight: bold;
 }
 a:hover{
     color: yellow;
 }
+#header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient( 135deg, #235990 10%, #514a9d 100%);
+  }
