@@ -34,6 +34,14 @@ export default function Projects() {
       name: "Weather forecasting with beautiful soup",
       info: "information about project",
     },
+    {
+      name: "Advanced Technology Store",
+      info: "information about project",
+    },
+    {
+      name: "Urban Showoff",
+      info: "information about project",
+    },
   ];
 
   return (
