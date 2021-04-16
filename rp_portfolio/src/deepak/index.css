@@ -1,9 +1,12 @@
-.dmaincss{
-    background-color: rgba(255, 255, 255, 3);
-    color: rgba(212, 13, 112, 0.877);
-    background-image: linear-gradient( 135deg, #92cbf5 10%, #1496f3 100%);
-    display: flex;
-    flex:1;
-    flex-direction: row;
-    
+.maincss {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.box {
+  background-color: #fff;
+  flex: 1;
+  border: 20px solid rgb(173, 184, 184);
 }
