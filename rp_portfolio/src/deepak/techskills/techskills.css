@@ -1,0 +1,51 @@
+.dSkillsContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: left;
+}
+#d_skills {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: rgb(0, 0, 0);
+}
+
+.dslidercontainer {
+  display: flex;
+  width: 200px;
+  height: 10px;
+}
+.didpl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.didpl img,
+.didpl svg {
+  width: 75px;
+  height: 65px;
+}
+.dhtmlimg {
+  color: orangered;
+}
+.dpythonimg {
+  color: rgb(206, 206, 21);
+}
+.dcssimg {
+  color: rgb(9, 24, 161);
+}
+.djavascriptimg {
+  background-color: rgb(206, 206, 21);
+  color: rgb(19, 1, 1);
+}
+.dmsexcelimg {
+  color: rgb(0, 138, 0);
+}
+.dline {
+  background: linear-gradient(#333300 0%, #ff0000 100%);
+}

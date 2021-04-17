@@ -29,7 +29,7 @@ export default function Main() {
         <img src={dp}></img>
       </div>
       <div class="sidebar">
-        <h1 class="dname">Deepak vishwakarma </h1>
+        <h1 class="dname">Deepak Vishwakarma </h1>
         <span>SoftWare Engineer</span>
 
         <a href="#home">Home</a>
