@@ -1,0 +1,15 @@
+#flt{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.frlticon{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

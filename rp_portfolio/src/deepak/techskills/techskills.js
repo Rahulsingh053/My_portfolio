@@ -38,7 +38,6 @@ export default function Techskills() {
               {s.icon}
               <h2>{s.name}</h2>
             </div>
-            {/* <progress value={s.rating} max="100"></progress> */}
           </div>
         ))}
       </div>
