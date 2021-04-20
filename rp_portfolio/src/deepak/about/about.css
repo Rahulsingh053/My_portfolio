@@ -2,5 +2,10 @@
     font-size: medium;
     margin: 17px;
     align-content: center;
+    text-align: center;
+}
+
+.abt{
     text-align: left;
+    padding: 15px;
 }

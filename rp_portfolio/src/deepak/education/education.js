@@ -6,7 +6,7 @@ export default function Education() {
         <h2>Education</h2>
       </div>
 
-      <div id="education">
+      <div class="educt">
         <li>S.S.C = 64%</li>
         <li>H.S.C = 55%</li>
         <li>Bachelor of Engineering(Computers) = 7.27 CGPA</li>

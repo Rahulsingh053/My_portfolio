@@ -6,7 +6,14 @@
 }
 
 .box {
-  background-color: #fff;
+  background-color: rgb(99, 154, 156);
   flex: 1;
-  border: 20px solid rgb(173, 184, 184);
+  overflow: auto;
+  border: 20px solid rgb(0, 0, 0);
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.box::-webkit-scrollbar {
+  display: none;
 }
